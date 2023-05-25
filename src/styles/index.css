@@ -3,7 +3,7 @@ nav{
 }
 
 .navbar-nav .nav-link:hover {
-    background-color: black;
+    background-color: #00C7A0;
     color: white;
     border-radius: 20px;
     font-size: large;
