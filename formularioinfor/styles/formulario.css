@@ -1,0 +1,43 @@
+.container {
+    background-image: url("../images/foto1.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    border-radius: 0.625rem;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    background: none;
+    border: none;
+    border-bottom: 0.125rem solid white;
+    outline: none;
+    color: aliceblue;
+  }
+  button[type="submit"],
+  button[type="button"] {
+    margin: 0 auto;
+    display: inline-block;
+    margin-right: 0.625rem;
+    margin-bottom: 0.625rem;
+  }
+  .btn-black {
+    background-color: black;
+    color: white;
+  }
+  label {
+    font-family: "Dosis", sans-serif;
+    color: white;
+  }
+  h1 {
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.125rem;
+  }
+  
+  
