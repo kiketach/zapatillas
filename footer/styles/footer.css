@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand:wght@700&display=swap');
+
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+  }
+  h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.230rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1.875rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  nav {
+    background-color: #2f131a;
+    padding: 3.125rem;
+  }
+  
+  aside {
+    background-color: #481c28;
+    padding: 3.75rem; 
+   flex-basis: 30%;
+   flex-shrink: 0;
+   margin-bottom: 0.5rem;
+   height: 8rem;
+   width: 42%;
+   float: left;
+  }
+  
+  main {
+    background-color: #6c2b3d;
+    padding: 3.75rem;
+    display: flex;
+    height: 8rem;
+    width: 42%;
+    
+  }
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0.875rem;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.875rem;
+  }
+  img{
+    height: 3.125rem;
+    width:  3.125rem;
+    border-radius: 2em;
+    margin-right: 1.913rem;
+  }
+  .icon-link {
+    text-decoration: none;
+    align-items: center;
+    color: #fff;
+    font-size: 1.230rem;
+  }
+  .icon-link:hover {
+    background-color: #fff;
+    color: #000000;
+  }
+
+  .input-email {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    border-radius: 1.563rem;
+    border: none;
+    background-color: #e6e6e6;
+    color: #333;
+    font-size: 1rem;
+    width: 17.375rem;
+    margin-right: 0.625rem;
+  }
+  
+  .btn-subscribe {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    border-radius: 1.563rem;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .btn-subscribe:hover {
+    background-color: #fff;
+    color: #000000;
+  }
+  .name{
+    text-align: center;
+  }
+  @media (min-width: 48rem) {
+    .container > div {
+      flex-basis: calc(50% - 1.25rem);
+    }
+  }
+  
+  @media (min-width: 64rem) {
+    .container > div {
+      flex-basis: calc(33.33% - 1.25rem);
+    }
+  }
