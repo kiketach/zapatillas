@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand:wght@700&display=swap');
-
 body {
     background-color: #f2f2f2;
     margin: 0;
@@ -15,40 +14,6 @@ body {
     text-align: center;
     color: #fff;
   }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 1.875rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  nav {
-    background-color: #2f131a;
-    padding: 3.125rem;
-  }
-  
-  aside {
-    background-color: #481c28;
-    padding: 3.75rem; 
-   flex-basis: 30%;
-   flex-shrink: 0;
-   margin-bottom: 0.5rem;
-   height: 8rem;
-   width: 42%;
-   float: left;
-  }
-  
-  main {
-    background-color: #6c2b3d;
-    padding: 3.75rem;
-    display: flex;
-    height: 8rem;
-    width: 42%;
-    
-  }
-
-  
   footer {
     background-color: #333;
     color: #fff;
@@ -90,7 +55,6 @@ body {
     width: 17.375rem;
     margin-right: 0.625rem;
   }
-  
   .btn-subscribe {
     display: inline-block;
     padding: 0.625rem 1.25rem;
@@ -113,7 +77,6 @@ body {
       flex-basis: calc(50% - 1.25rem);
     }
   }
-  
   @media (min-width: 64rem) {
     .container > div {
       flex-basis: calc(33.33% - 1.25rem);
