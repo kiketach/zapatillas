@@ -1,3 +1,4 @@
+@import url(../styles/whatsapp.css);
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand:wght@700&display=swap');
 /*styles in all page; specifics*/
 *{
@@ -319,7 +320,7 @@ and (max-width:1023px)*/
         height: 100%;
         text-align: center;
         align-self: center;
-        padding: 2rem 8rem 2rem 8rem;
+        padding: 1.2rem 8rem 1rem 8rem;
         clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
     }
     .vision-1{
@@ -334,7 +335,7 @@ and (max-width:1023px)*/
         grid-column: 1/2;
         grid-row: 1/4;
         height: 100%;
-        padding: 2rem 8rem 2rem 8rem;
+        padding: 1.2rem 8rem 1rem 8rem;
         clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
         background-image: url(/src/imgs/vision.png);
         background-position: center;
@@ -348,7 +349,7 @@ and (max-width:1023px)*/
     .vision-2> p{
         text-align: left;  
         font-weight:bolder;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
     .mission-2> .titulo1{
         text-align: center;     
@@ -357,19 +358,19 @@ and (max-width:1023px)*/
     .mission-2> p{
         text-align: left;  
         font-weight:bolder;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
     .imagen1, .imagen{  
         margin: 2.8rem 0rem 0rem 3rem;
         height: 18rem;
     }
    .subtitulo{
-    font-size: 5rem;
+    font-size: 3.2rem;
     margin-top: 1rem;
    }
    /*Cards equipo*/
    .card-group{
-    margin: 0 15rem 0 15rem;
+    margin: 1.5rem 10rem 3rem 10rem;
    }
    .card{
         background: linear-gradient(180deg, #000000 0%,rgba(241, 245, 244, 0) 40%);
