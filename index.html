@@ -4,111 +4,234 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/src/imgs/logo sin fondo.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="/src/imgs/logo sin fondo.png"
+      type="image/x-icon"
+    />
     <title>Zapatillas Hat Trick</title>
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" />
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+    />
     <link rel="stylesheet" href="/src/styles/whatsapp.css" />
   </head>
   <body>
-   <!-- NAVBAR -->
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a href="#">
-      <img
-        src="/src/imgs/logo sin fondo.png"
-        alt="Bootstrap"
-        width="60"
-        height="60"/>
-    </a>
-      <a class="navbar-brand p-3"
-        >Zapatillas Hat Trick</a>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a href="#">
+          <img
+            src="/src/imgs/logo sin fondo.png"
+            alt="Bootstrap"
+            width="60"
+            height="60"
+          />
+        </a>
+        <a class="navbar-brand p-3">Zapatillas Hat Trick</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./src/pages/catalogo.html"
+                >Catálogo</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./src/pages/nosotros.html"
+                >Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="./src/pages/formularioinfor.html.html"
+                >Contactanos</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./src/pages/iniciarSesion.html"
+                >Iniciar Sesión</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./src/pages/registro.html"
+                >Registrarse</a
+              >
+            </li>
+            <a href="./src/pages/carritoCompras.html">
+              <i
+                class="fas fa-shopping-cart fa-2x m-2"
+                style="color: #00c7a0"
+              ></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- CARRUSEL -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/src/imgs/Banner.png"
+            class="w-100"
+            alt="..."
+            style="height: 550px; opacity: 0.7"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="text-gen">Duracion Extrema</h2>
+            <h4 class="text-gen">
+              Ideales para superficies exigentes como asfalto y cemento
+            </h4>
+            <h4 class="text-gen">
+              Manejamos 3 tipos de suelas especiales para FUTSAL y MICRO
+            </h4>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/src/imgs/banne2.jpeg"
+            class="d-flex w-100"
+            alt="..."
+            style="height: 550px; opacity: 0.5"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="text-gen">Tambien disponibles en Torretin</h2>
+            <h4 class="text-gen">
+              Si eres jugador(a) en cesped no te preocupes
+            </h4>
+            <h4 class="text-gen">
+              Tambien te ofrecemos nuestras zapatillas en suela Torretin!
+            </h4>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/src/imgs/banner3.jpeg"
+            class="d-block w-100"
+            alt="..."
+            style="height: 550px; opacity: 0.5"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="text-gen">Maxima duracion y comodidad</h2>
+            <h4 class="text-gen">Equipadas son plantillas ergonomicas</h4>
+            <h4 class="text-gen">
+              que garantizan comodidad durante muchos partidos!
+            </h4>
+          </div>
+        </div>
+      </div>
       <button
-        class="navbar-toggler"
+        class="carousel-control-prev"
         type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./src/pages/catalogo.html"
-              >Catálogo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active"  href="./src/pages/nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active"  href="./src/pages/formularioinfor.html.html">Contactanos</a>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- VIDEO -->
+    <div class="video">
+      <video class="img-fluid" controls style="height: 550px">
+        <source src="/src/imgs/suelas.mp4" type="video/mp4" />
+        Tu navegador no admite el elemento video.
+      </video>
+      <div class="container">
+        <h2 class="text-gen"><center>Suelas para todos los gustos</center></h2>
+        <p class="text-gen">
+          Lo que nos diferencia de las otras marcas es que TU tienes la opcion
+          de escoger la suela para tu pedido de zapatillas sean de Goma, Colores, Negra o Torretines.
+         Te ofrecemos los dintintos tipos de suelas de la mejor calidad del mercado ya que esta parte
+         del calzado es la que mas sufre de desgaste para los jugadores de MICRO y FUTSAL.
+        </p>
+        <ul>
+          <li class="text-gen">
+            Suela de Goma: Especializada para superficies lisas o baldosas
+          </li> <hr>
+          <li class="text-gen">
+            Suela de Colores y Suela Negra: Ideales para superficies duras como cemento o asfalto, 
+            gracias a sus materiales de excelente calidad ofrecen una durabilidad ante el desgaste por el 
+            constante roce del cemento o asfalto.
+          </li> <hr>
+          <li class="text-gen">
+            Suela Torretin: Perfectas para canchas de cesped sintetico, su diseño de tacos pequeños ofrecen un 
+            agarre excepcional en este tipo de superfie.
           </li>
         </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./src/pages/iniciarSesion.html"
-              >Iniciar Sesión</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./src/pages/registro.html">Registrarse</a>
-          </li>
-          <a href="./src/pages/carritoCompras.html">
-            <i class="fas fa-shopping-cart fa-2x m-2" style="color: #00C7A0"></i>
-          </a>
-        </ul>
       </div>
     </div>
-  </nav>
-<!-- CARRUSEL -->
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/src/imgs/banner1.png" class="d-flex w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5 class="text-black-50">Duracion Extrema</h5>
-          <p class="text-black-50">Ideales para superficies exigentes como asfalto y cemento</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="/src/imgs/banne2.jpeg" class="d-flex w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>S</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-   <!--  WHATSAPP BUTTON -->
+    <!-- CONTENIDO AL LADO DEL VIDEO -->
+
+    <!--  WHATSAPP BUTTON -->
     <div class="nav-bottom">
       <link
         href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -120,8 +243,8 @@
             <i class="material-icons icon-font-color">close</i>
           </button>
           <p>
-            <img src="/src/imgs/secretary.png" width="50" /> Hola, ¿en que podemos
-            ayudarle?
+            <img src="/src/imgs/secretary.png" width="50" /> Hola, ¿en que
+            podemos ayudarle?
           </p>
         </div>
         <div class="content-whatsapp -bottom">
@@ -148,9 +271,14 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-    <script src="https://kit.fontawesome.com/d3c8ba32df.js" crossorigin="anonymous"></script>
-  <!--   SCRIPTS -->
+    <script
+      src="https://kit.fontawesome.com/d3c8ba32df.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--   SCRIPTS -->
     <script src="/src/script/whatsApp.js"></script>
-    <footer> <object data="src/pages/footer.html" width="100%" height="350px"></object> </footer>
+    <footer>
+      <object data="src/pages/footer.html" width="100%" height="350px"></object>
+    </footer>
   </body>
 </html>
