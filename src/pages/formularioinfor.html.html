@@ -11,29 +11,30 @@
 <body>
   <div class="container">
     <h1 class="text-center">Contáctenos</h1>
-    <form id="contact-form">
+    <form id="contact-form" action="https://formspree.io/f/xjvdqago"
+    method="POST">
       <div class="form-group">
         <label for="name">Nombre:</label>
-        <input type="text" class="form-control" id="name" required>
+        <input type="text" class="form-control" id="name" name="nombre"required>
       </div>
       <div class="form-group">
         <label for="email">Correo electrónico:</label>
-        <input type="email" class="form-control" id="email" required>
+        <input type="email" class="form-control" id="email" name="email"required>
       </div>
       <div class="form-group">
         <label for="phone">Teléfono:</label>
-        <input type="tel" class="form-control" id="phone" required>
+        <input type="tel" class="form-control" id="phone" name="telefono"required>
       </div>
       <div class="form-group">
         <label for="message">Mensaje:</label>
-        <textarea class="form-control" id="message" required></textarea>
+        <textarea class="form-control" id="message" name="message"required></textarea>
       </div>
       <button type="submit" class="btn btn-primary bg-dark text-white">Enviar</button>
       <button type="button" class="btn btn-primary bg-dark text-white" onclick="limpiarFormulario()">Limpiar</button>
     </form>
   </div>
 
-  <script src="../script/formularioinfor.js"></script>
+  <!-- <script src="../script/formularioinfor.js"></script> -->
 </body>
 </html>
 
