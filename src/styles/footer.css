@@ -72,12 +72,41 @@ body {
   .name{
     text-align: center;
   }
-  @media (min-width: 48rem) {
+  @media (max-width: 340px) {
+    .container {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .container > div {
+      flex-basis: 100%;
+    }
+  }
+  
+  @media (min-width: 341px) and (max-width: 640px) {
+    .container {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .container > div {
+      flex-basis: 100%;
+    }
+  }
+  
+  @media (min-width: 641px) and (max-width: 767px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
     .container > div {
       flex-basis: calc(50% - 1.25rem);
     }
   }
-  @media (min-width: 64rem) {
+  
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
     .container > div {
       flex-basis: calc(33.33% - 1.25rem);
     }
