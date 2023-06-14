@@ -17,7 +17,7 @@ body {
   footer {
     background-color: #333;
     color: #fff;
-    padding: 1.35rem;
+    padding: 1.0rem;
   }
   .container{
     display: flex;
@@ -52,7 +52,7 @@ body {
     background-color: #e6e6e6;
     color: #333;
     font-size: 1rem;
-    width: 17.375rem;
+    width: 13.375rem;
     margin-right: 0.625rem;
   }
   .btn-subscribe {
