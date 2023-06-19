@@ -10,6 +10,14 @@ nav {
   text-shadow: #3d9e5a;
   font-weight: bolder;
 }
+
+.text-green {
+  font-family: "Quicksand", sans-serif;
+  color: #3d9e5a;
+  text-shadow: #3d9e5a;
+  font-weight: bolder;
+}
+
 .embed-responsive {
   position: relative;
   display: block;
@@ -24,6 +32,22 @@ nav {
   border-radius: 20px;
   font-size: large;
   padding: 15px;
+}
+
+.navbar-suelas{
+  border-radius: 20px;
+  font-size: large;
+  padding: 15px;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.navbar-suelas-item:hover {
+  background-color: #00c7a0;
+  color:black;
+  border-radius: 20px;
+  font-size: large;
 }
 
 /* Banner */
