@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-/* ESTILOS DE CONTENIDO */
+*{
+  scroll-behavior: smooth;
+}
+
+/* Tipos de fuentes*/
 nav {
   font-family: "Quicksand", sans-serif;
 }
@@ -17,6 +21,7 @@ nav {
   text-shadow: #3d9e5a;
   font-weight: bolder;
 }
+
 
 .embed-responsive {
   position: relative;
@@ -76,9 +81,52 @@ nav {
 .site-blocks-1 .icon i {
   padding: 20px;
   color: #00c7a0;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
+
+#Goma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  overflow: hidden;
+}
+
+.image-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to bottom, #00ffbf, #ffffff);
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0; 
+  transform: translateY(-05%);  
+  transform: translateX(1%);  
+  z-index: 1;
+}
+
+#suelas {
+  display: block;
+  width: 90%;
+  height: 70%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  padding-top: 1.875rem;
+  z-index: 2;
+  margin-left: 1.25rem;
+}
+
+
 
 /* WHATSAPP */
 .float {
