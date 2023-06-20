@@ -70,6 +70,13 @@ nav {
 .site-section {
   padding: 2.5em 0;
 }
+.object-fit-none{
+  height: 14rem;
+  width: auto;
+}
+.division{
+  margin-top: 1rem;
+}
 @media (min-width: 768px) {
   .site-section {
     padding: 5em 0;
@@ -250,9 +257,16 @@ nav {
 .popup-whatsapp > div {
   margin: 5px;
 }
-@media (max-width: 680px) {
+@media (max-width: 768px) {
   .popup-whatsapp p {
     font-size: 0.9em;
+  }
+  .object-fit-none{
+    height: 12rem;
+    width: auto;
+  }
+  .division{
+    margin-top: 1rem;
   }
 }
 .popup-whatsapp > .content-whatsapp.-top {
@@ -335,6 +349,10 @@ input.whats-input[type="text"] {
 @media (max-width: 420px) {
   input.whats-input[type="text"] {
     width: 225px;
+  }
+  .object-fit-none{
+    height: 10rem;
+    width: auto;
   }
 }
 input.whats-input::placeholder {
