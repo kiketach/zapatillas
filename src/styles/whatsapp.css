@@ -21,8 +21,6 @@ nav {
   text-shadow: #3d9e5a;
   font-weight: bolder;
 }
-
-
 .embed-responsive {
   position: relative;
   display: block;
@@ -30,7 +28,6 @@ nav {
   padding: 0;
   overflow: hidden;
 }
-
 .navbar-nav .nav-link:hover {
   background-color: #00c7a0;
   color: white;
@@ -56,6 +53,19 @@ nav {
 }
 
 /* Banner */
+span{
+  color: #00c7a0;
+}
+.imagen-banner{
+  background-size:cover; 
+  width: 45rem;
+}
+.btn-catalogo{
+  background: #00c7a0;
+}
+.btn-catalogo:hover{
+  background: black;
+}
 .site-blocks-cover {
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,6 +79,13 @@ nav {
 /* CONTENIDO BAJO BANNER */
 .site-section {
   padding: 2.5em 0;
+}
+.object-fit-none{
+  height: 14rem;
+  width: auto;
+}
+.division{
+  margin-top: 1rem;
 }
 @media (min-width: 768px) {
   .site-section {
@@ -250,9 +267,16 @@ nav {
 .popup-whatsapp > div {
   margin: 5px;
 }
-@media (max-width: 680px) {
+@media (max-width: 768px) {
   .popup-whatsapp p {
     font-size: 0.9em;
+  }
+  .object-fit-none{
+    height: 12rem;
+    width: auto;
+  }
+  .division{
+    margin-top: 1rem;
   }
 }
 .popup-whatsapp > .content-whatsapp.-top {
@@ -332,10 +356,25 @@ input.whats-input[type="text"] {
   outline: none;
   transition: 0.3s;
 }
+@media (max-width:500px) {
+  /* Banner */
+  .banner{
+    flex-direction: column; 
+  }
+  .imagen-banner{
+    height: auto;
+    width: 20rem;
+  }
+}
 @media (max-width: 420px) {
   input.whats-input[type="text"] {
     width: 225px;
   }
+  .object-fit-none{
+    height: 10rem;
+    width: auto;
+  }
+
 }
 input.whats-input::placeholder {
   /* Most modern browsers support this now. */
