@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand:wght@700&display=swap');
+:root {
+    --clr-black: #000;
+    --clr-ver: #00C7A0;
+    --clr-degrade:linear-gradient(180deg, #96FBE9 0%,rgba(241, 245, 244, 0) 70%);
+    --clr-white: white;
+    --clr-gray: #e2e2e2;
+    --clr-red: #961818;
+    --letter-h-quicksand: 'Quicksand', sans-serif;
+    --font-mono: 'Dosis', sans-serif;
+    --transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1)
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing:content-box;
+}
+
+body{
+    font-family: var(--font-mono);
+    background-image: url(https://www.futbolemotion.com/imagescms/postblogs/17905/medianas/post-top-5-futbol-sala-joma.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    display:flex!important;
+    flex-wrap: wrap!important;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row!important;
+}
+
+section h2{
+    text-align:center;
+    width: 100%;
+    font-size: 2.5em;
+    font-family: var(--letter-h-quicksand);
+    color: var(--clr-black);
+}
+
+section form{
+    padding: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 2px solid var(--clr-ver);
+    background-color: rgba(0, 0, 0, 0.551);
+    color:var(--clr-white);
+    text-align: center;
+    justify-content: center;
+}
+section form label{
+    width: 100%;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+section form input{
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border-radius: 9px;
+    border: none;
+    outline-color: var(--clr-ver);
+    background-color: var(--clr-white);
+}
+
+section form input[type='submit']{
+    margin-top: 1.5em;
+    background-color: var(--clr-gray);
+    color: var(--clr-black);
+    font-family: var(--font-mono);
+    transition: var(--transition);
+    font-weight: bold;
+    width: 50%;
+    font-size: 1.2em;
+} 
+
+section form input[type='submit']:active{
+    transform: scale(0.97);
+}
+section form input[type='submit']:hover{
+    background-color:var(--clr-ver);
+    color: #000;
+}
+
+section form p{
+    margin-top: 1.5em;
+    width: 100%;
+}
+section form p a{
+    text-decoration: none;
+    color: var(--clr-ver);
+}
