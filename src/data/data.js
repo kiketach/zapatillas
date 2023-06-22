@@ -161,6 +161,7 @@ const productos = [
     }
 ];
 const contenedorProductos = document.getElementById('contenedor-productos');
+const carrito = [];
 function productosCarga(){
     
     productos.forEach(producto => {
@@ -177,5 +178,6 @@ function productosCarga(){
         `;
         contenedorProductos.append(div);
     });
+
 }
 productosCarga();
