@@ -28,28 +28,14 @@ nav {
   padding: 0;
   overflow: hidden;
 }
+
+/* Estilos del NavBar */
 .navbar-nav .nav-link:hover {
   background-color: #00c7a0;
   color: white;
   border-radius: 20px;
   font-size: large;
   padding: 15px;
-}
-
-.navbar-suelas{
-  border-radius: 20px;
-  font-size: large;
-  padding: 15px;
-  text-decoration: none;
-  list-style: none;
-}
-
-
-.navbar-suelas-item:hover {
-  background-color: #00c7a0;
-  color:black;
-  border-radius: 20px;
-  font-size: large;
 }
 
 /* Banner */
@@ -102,6 +88,8 @@ span{
   font-size: 2.5rem;
 
 }
+
+/* Estilos de la seccion de suelas */
 #Goma {
   display: flex;
   justify-content: center;
@@ -111,7 +99,7 @@ span{
 
 .image-container {
   position: relative;
-  width: 100%;
+  width: 70%;
   height: 0;
   padding-top: 100%;
   overflow: hidden;
@@ -146,6 +134,23 @@ span{
   max-height: 100%; 
 }
 
+.foto-exp-suelas img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Animacion de la pagina */
+.contenido-animado {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.contenido-animado.aparecer {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 /* WHATSAPP */
 .float {
@@ -172,7 +177,6 @@ span{
   margin-top: 16px;
 }
 
-/* offset-x > | offset-y ^| blur-radius | spread-radius | color */
 @keyframes pulse {
   0% {
     transform: scale(1, 1);
@@ -225,7 +229,6 @@ span{
   cursor: pointer;
   border-radius: 50%;
   background-color: white;
-  /* offset-x > | offset-y ^| blur-radius | spread-radius | color */
   -webkit-box-shadow: 1px 1px 6px 0px rgba(68, 68, 68, 0.705);
   -moz-box-shadow: 1px 1px 6px 0px rgba(68, 68, 68, 0.705);
   box-shadow: 1px 1px 6px 0px rgba(68, 68, 68, 0.705);
@@ -260,7 +263,6 @@ span{
   transition: 0.5s;
   border-radius: 10px;
   background-color: white;
-  /* offset-x > | offset-y ^| blur-radius | spread-radius | color */
   -webkit-box-shadow: 2px 1px 6px 0px rgba(68, 68, 68, 0.705);
   -moz-box-shadow: 2px 1px 6px 0px rgba(68, 68, 68, 0.705);
   box-shadow: 2px 1px 6px 0px rgba(68, 68, 68, 0.705);
@@ -378,6 +380,7 @@ input.whats-input[type="text"] {
   }
 
 }
+
 input.whats-input::placeholder {
   /* Most modern browsers support this now. */
   color: rgba(68, 68, 68, 0.705);
