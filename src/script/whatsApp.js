@@ -21,3 +21,20 @@ popupWhatsapp=()=>{
     }, 3000);
 }
 popupWhatsapp();
+
+
+//contenido-animado
+var elementosAnimados = document.querySelectorAll('.contenido-animado');
+
+function mostrarElementosAnimados() {
+  for (var i = 0; i < elementosAnimados.length; i++) {
+    var elemento = elementosAnimados[i];
+    var elementoPosicion = elemento.getBoundingClientRect().top;
+
+    if (elementoPosicion < window.innerHeight - 50) {
+      elemento.classList.add('aparecer');
+    }
+  }
+}
+
+window.addEventListener('scroll', mostrarElementosAnimados);
