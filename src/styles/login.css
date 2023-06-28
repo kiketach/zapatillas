@@ -18,7 +18,7 @@
 
 body{
     font-family: var(--font-mono);
-    background-image: url(https://www.futbolemotion.com/imagescms/postblogs/17905/medianas/post-top-5-futbol-sala-joma.jpg);
+    background-image: url(../imgs/fondoForm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
