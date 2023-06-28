@@ -9,19 +9,20 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    
-    <link rel="stylesheet" href="../styles/catalogo.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
-      />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/src/styles/whatsapp.css" />
+    <link rel="stylesheet" href="../styles/estilo.css">
+    <link rel="stylesheet" href="../styles/catalogo.css" />
+
     <link
       rel="shortcut icon"
       href="../imgs/logo sin fondo.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="/src/styles/index.css">
     <title>Catalogo</title>
   </head>
   <body>
@@ -92,22 +93,102 @@
       </div>
     </nav>
     <!--cards-->
+    <!--cards-->
     <main>
       <h2 class="titulo-principal" id="titulo-principal">
         Escoge el <span>producto</span> que mejor se acomode a tus <span>necesidades!!</span>
       </h2>
-      <div id="contenedor-productos" class="contenedor-productos">
-        <!-- Esto se va a rellenar con JS -->
-      </div>
     </main>
 
-    <!-- Carrito de Compras -->
-    <div id="modal-container" class="modal-container"></div>
+    <section class="contenedor">
+      <!-- Contenedor de elementos -->
+      <div class="contenedor-items">
+          <!-- Inicio de un elemento en el contenedor.-->
+          <div class="item">
+              <!--span es un elemento de marcado utilizado para aplicar estilos o agrupar contenido en línea dentro de un documento HTML.-->
+              <!--Un elemento de texto con la clase "titulo-item" que muestra el título "Box Engasse".-->
+              <span class="titulo-item">Master 04 - Cuero</span>
+              <!--Una imagen con la ruta de origen "img/boxengasse.png", un atributo alternativo vacío y la clase "img-item".-->
+              <img src="https://i.ibb.co/6t1t6Pw/12.png" alt="" class="img-item">
+              <!--Un elemento de texto con la clase "precio-item" que muestra el precio "$15.000".-->
+              <span class="precio-item">$90.000</span>
+              <!-- Un botón con la clase "boton-item" que muestra el texto "Agregar al Carrito".-->
+              <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item">
+            <span class="titulo-item">Sala 04 - Sintetico</span>
+            <img src="https://i.ibb.co/fQmYdMT/10.png" alt="" class="img-item">
+            <span class="precio-item">$95.000</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item">
+            <span class="titulo-item">Master 02 - Cuero</span>
+            <img src="https://i.ibb.co/t2kzskF/6.png" alt="" class="img-item">
+            <span class="precio-item">$95.000</span>
+            <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item">
+              <span class="titulo-item">Micro 05 - Cuero</span>
+              <img src="https://i.ibb.co/dfY70ZM/11-removebg-preview.png" alt="" class="img-item">
+              <span class="precio-item">$80.000</span>
+              <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item">
+              <span class="titulo-item">Master 03 - Cuero</span>
+              <img src="https://i.ibb.co/Pc0ZWY6/11.png" alt="" class="img-item">
+              <span class="precio-item">$95.000</span>
+              <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item">
+              <span class="titulo-item">ULTRA 01 - Cuero</span>
+              <img src="https://i.ibb.co/jZXM48q/2.png" alt="" class="img-item">
+              <span class="precio-item">$95.000</span>
+              <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item">
+              <span class="titulo-item">MICRO 01 - Sintetico</span>
+              <img src="https://i.ibb.co/wRwMw7J/7-removebg-preview.png" alt="" class="img-item">
+              <span class="precio-item">$80.000</span>
+              <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item">
+              <span class="titulo-item">MICRO 02 - Sintetico</span>
+              <img src="https://i.ibb.co/dfY70ZM/11-removebg-preview.png" alt="" class="img-item">
+              <span class="precio-item">$60.000</span>
+              <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item">
+              <span class="titulo-item">SALA 01 - Sintetico</span>
+              <img src="https://i.ibb.co/Qmb32Yw/SALA-01.png" alt="" class="img-item">
+              <span class="precio-item">$80.000</span>
+              <button class="boton-item">Agregar al Carrito</button>
+          </div>
+          <div class="item">
+              <span class="titulo-item">ULTRA 04 - Cuero</span>
+              <img src="https://i.ibb.co/MksLqZ6/5.png" alt="" class="img-item">
+              <span class="precio-item">$95.000</span>
+              <button class="boton-item">Agregar al Carrito</button>
+          </div>
+      </div>
+      <!-- Carrito de Compras -->
+      <div class="carrito" id="carrito">
+          <div class="header-carrito">
+              <h2>Tu Carrito</h2>
+          </div>
 
-    
-    <script src="../data/data.js"></script>
-    <script src="../script/carritodecompras.js"></script>
-
+          <div class="carrito-items"> 
+          </div>
+          <div class="carrito-total">
+              <div class="fila">
+                  <strong>Tu Total</strong>
+                  <span class="carrito-precio-total">
+                      $120.000,00
+                  </span>
+              </div>
+              <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+          </div>
+      </div>
+    </section>
     <footer>
       <object data="../pages/footer.html" width="100%" height="350px"></object>
     </footer>
