@@ -7,6 +7,9 @@ if(document.readyState == 'loading'){
 }else{
     ready();
 }
+<<<<<<< HEAD
+cargarProductos();
+=======
 
 function ready(){
     
@@ -196,3 +199,4 @@ function actualizarTotalCarrito(){
 
 }
 
+>>>>>>> main
