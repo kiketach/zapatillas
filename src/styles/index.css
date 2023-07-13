@@ -44,7 +44,7 @@ span{
 }
 .imagen-banner{
   background-size:cover; 
-  width: 45rem;
+  background-repeat: no-repeat;
 }
 .btn-catalogo{
   background: #00c7a0;
@@ -73,11 +73,6 @@ span{
 }
 .division{
   margin-top: 1rem;
-}
-@media (min-width: 768px) {
-  .site-section {
-    padding: 5em 0;
-  }
 }
 .site-section.site-section-sm {
   padding: 4em 0;
@@ -149,4 +144,9 @@ span{
 .contenido-animado.aparecer {
   opacity: 1;
   transform: translateY(0);
+}
+@media (min-width: 768px) {
+  .site-section {
+    padding: 5em 0;
+  }
 }
