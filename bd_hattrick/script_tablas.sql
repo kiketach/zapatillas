@@ -5,14 +5,14 @@ VALUES
   (3, "", 550000, "zapatilla black", 2, "", "zapatilla", 1, 1, 1, 1, 1, 1),
   (4, "", 150000, "zapatilla yellow", 1, "", "zapatilla", 1, 1, 1, 1, 1, 1),
   (5, "", 45000, "zapatilla purple", 10, "", "zapatilla", 1, 1, 1, 1, 1, 1);
-
-        
  SELECT * FROM productos;
  
 INSERT INTO empresa (id_empresa, nombre_empresa, vision, mision, telefono, nit_empresa, correo, pais, ciudad, direccion_empresa)
 VALUES (1, "hat_trick", "vender zapatos nivel nacional", "vender zapatos nivel nacional", '3125141329', 1234567891, "enriquehat_trick@gmail.com", "colombia", "bogota", "cra20-42c"  );
-
+INSERT INTO empresa (id_empresa, nombre_empresa, vision, mision, telefono, nit_empresa, correo, pais, ciudad, direccion_empresa)
+VALUES (3, "hat_trick", "vender zapatos nivel nacional", "vender zapatos nivel nacional", '3125141329', 1234567891, "enriquehat_trick@gmail.com", "colombia", "bogota", "cra20-42c"  );
 SELECT * FROM empresa;
+
  
 INSERT INTO vendedores (id_vendedor, nombre, apellido, empresa_idempresa)
 VALUES (1, "Oscar", "Gonzales", 1),
@@ -28,8 +28,11 @@ VALUES (1, "Omar", "Gonzales", "omar12@gmail.com", '3125698467', "cra15-6", '197
   (3, "Mariano", "Rios","mariano@gmail.com", '3125695466', "cra08-63", '1975-09-05', 4),
   (4, "Sara", "Aparicio","sara567@gmail.com", '3256398468', "cra15-15", '1973-09-03', 2),
   (5, "Elena","Cubillos", "elenac12@gmail.com", '3125878466', "cra09-68", '2000-10-12', 3);
-
- SELECT * FROM usuarios;
+ALTER TABLE usuarios
+ADD contraseña INT;
+ALTER TABLE mi_tabla
+MODIFY id INT AUTO_INCREMENT;
+SELECT * FROM usuarios;
  
 INSERT INTO tipos_suelas(idtipo_suela, tipo_goma, tipo_colores, tipo_negra,tipo_torretin)
 VALUES(1,"true","false","false","false");
