@@ -30,9 +30,17 @@ nav {
 }
 
 /* Estilos del NavBar */
+.navbar-brand, .navbar-nav{
+  font-weight: bold;
+  font-size: 1.230rem;
+}
 .navbar-nav .nav-link:hover {
-  background-color: #00c7a0;
-  color: white;
+  background: url(https://i.pinimg.com/236x/b9/9c/fd/b99cfdc41c52f043ce46e38abb59e1a6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
   border-radius: 20px;
   font-size: large;
   padding: 15px;

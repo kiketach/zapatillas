@@ -7,9 +7,6 @@ if(document.readyState == 'loading'){
 }else{
     ready();
 }
-<<<<<<< HEAD
-cargarProductos();
-=======
 
 function ready(){
     
@@ -198,5 +195,3 @@ function actualizarTotalCarrito(){
     document.getElementsByClassName('carrito-precio-total')[0].innerText = '$'+total.toLocaleString("es") + ",00";
 
 }
-
->>>>>>> main
