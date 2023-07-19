@@ -6,11 +6,18 @@ signupForm.addEventListener('submit', (e) => {
     const password = document.querySelector('#password').value
     const Users = JSON.parse(localStorage.getItem('users')) || []
     const isUserRegistered = Users.find(user => user.email === email)
-    if(isUserRegistered) {
+    if(isUserRegistered){
         return alert('El usuario ya esta registrado! , intentalo con otro')
     }
     Users.push({name: name, email: email, password: password})
     localStorage.setItem('users', JSON.stringify(Users))
-    alert('Registro Exitoso')
-    window.location.href = 'login.html'
+    Swal.fire({
+       icon: 'Buen trabajo 👌!',
+       title:'🎉Registro exitoso!📋',
+       text: 'realicé el inicio de sesión por favor.',
+       showConfirmButton: false,
+       timer: 2000
+   }).then(() => {
+    window.location.href = '../pages/iniciarSesion.html'
+   })
 })
