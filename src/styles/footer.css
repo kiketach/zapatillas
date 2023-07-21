@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand:wght@700&display=swap');
 body {
-    background-color: #f2f2f2;
+    background-color: #333;
     margin: 0;
     padding: 0;
   }
   p{
     font-family: 'Dosis', sans-serif;
     font-size: 1rem;
+    letter-spacing: .1rem;
+    text-align: justify;
   }
   h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.230rem;
+    text-align: center;
+    color: #fff;
+  }
+  h3{
+    margin-top: 3rem;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.230rem;
     text-align: center;
@@ -17,7 +26,7 @@ body {
   footer {
     background-color: #333;
     color: #fff;
-    padding: 1.0rem;
+    padding: 1rem;
   }
   .container{
     display: flex;

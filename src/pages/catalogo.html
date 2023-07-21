@@ -14,10 +14,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="stylesheet" href="/src/styles/whatsapp.css" />
     <link rel="stylesheet" href="../styles/estilo.css">
-    <link rel="stylesheet" href="../styles/catalogo.css" />
-
+    <link rel="stylesheet" href="../styles/index.css">
     <link
       rel="shortcut icon"
       href="../imgs/logo sin fondo.png"
@@ -70,33 +68,23 @@
               <a
                 class="nav-link active"
                 aria-current="page"
-                href="./src/pages/iniciarSesion.html"
+                href="/src/pages/iniciarSesion.html"
                 >Iniciar Sesión</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./src/pages/registro.html"
+              <a class="nav-link active" href="/src/pages/registro.html"
                 >Registrarse</a
               >
             </li>
-            <a href="./carritoCompras.html">
-              <i class="fas fa-shopping-cart fa-2x m-2" style="color: #00C7A0"></i>
-            </a>
-            <a href="./src/pages/carritoCompras.html">
-              <i
-                class="fas fa-shopping-cart fa-2x m-2"
-                style="color: #00c7a0"
-              ></i>
-            </a>
           </ul>
         </div>
       </div>
     </nav>
     <!--cards-->
-    <!--cards-->
     <main>
       <h2 class="titulo-principal" id="titulo-principal">
-        Escoge el <span>producto</span> que mejor se acomode a tus <span>necesidades!!</span>
+        Escoge el <span>producto</span> que mejor <br> se acomode a tus <span>necesidades!!</span>
       </h2>
     </main>
 
@@ -180,19 +168,18 @@
           </div>
           <div class="carrito-total">
               <div class="fila">
-                  <strong>Tu Total</strong>
+                  <strong>Tu valor a pagar es: </strong>
                   <span class="carrito-precio-total">
                       $120.000,00
                   </span>
               </div>
-              <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+              <button class="btn-pagar"><a href="https://buy.stripe.com/test_6oE8z61TY4MJ3FSaEE">Pagar</a><i class="fa-solid fa-bag-shopping"></i> </button>
           </div>
       </div>
     </section>
     <footer>
-      <object data="../pages/footer.html" width="100%" height="350px"></object>
+      <object data="../pages/footer.html" width="100%" height="398px"></object>
     </footer>
-    <script src="../data/data.js"></script>
     <script src="../script/cardProductos.js"></script>
   </body>
 </html>
