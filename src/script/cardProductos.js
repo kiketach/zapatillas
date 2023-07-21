@@ -43,7 +43,7 @@ function ready(){
 }
 //Eliminamos todos los elementos del carrito y lo ocultamos
 function pagarClicked(){
-    alert("Gracias por la compra");
+   // alert("Gracias por la compra");
     //Elimino todos los elmentos del carrito
     let carritoItems = document.getElementsByClassName('carrito-items')[0];
     while (carritoItems.hasChildNodes()){
@@ -94,10 +94,10 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc){
 
     var itemCarritoContenido = `
         <div class="carrito-item">
-            <img src="${imagenSrc}" width="80px" alt="">
+            <img src="${imagenSrc}" width="100px" alt="">
             <div class="carrito-item-detalles">
-                <span class="carrito-item-titulo">${titulo}</span>
-                <div class="selector-cantidad">
+            <span class="carrito-item-titulo">${titulo}</span>
+                <div class="selector-cantidad"> 
                     <i class="fa-solid fa-minus restar-cantidad"></i>
                     <input type="text" value="1" class="carrito-item-cantidad" disabled>
                     <i class="fa-solid fa-plus sumar-cantidad"></i>
