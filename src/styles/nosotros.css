@@ -44,23 +44,23 @@ span{
 }
 @keyframes sliden{
     0%{
-        background: url(/src/imgs/silueta-corriendo.png);       
+        background: url(../imgs/silueta-corriendo.png);       
         background-size: cover;
         width: 30%;
     }
     50%{
         width: 30%;
-        background: url(/src/imgs/silueta-jugando.png);
+        background: url(../imgs/silueta-jugando.png);
         background-size: cover;
     }
     80%{
         width: 30%;
-        background: url(/src/imgs/silueta-aire.png);
+        background: url(../imgs/silueta-aire.png);
         background-size: cover;
     }
     100%{
         width: 30%;
-        background: url(/src/imgs/gol-sinFondo.png);
+        background: url(../imgs/gol-sinFondo.png);
         background-size: cover;
     }
  }
@@ -78,23 +78,23 @@ span{
 }
 @keyframes sliden1{
     0%{
-        background: url(/src/imgs/silueta-patiando.png);       
+        background: url(../imgs/silueta-patiando.png);       
         background-size: cover;
         width: 30%;
     }
     50%{
         width: 30%;
-        background: url(/src/imgs/silueta-peota.png);
+        background: url(../imgs/silueta-peota.png);
         background-size: cover;
     }
     80%{
         width: 30%;
-        background: url(/src/imgs/silueta-tapando.png);
+        background: url(../imgs/silueta-tapando.png);
         background-size: cover;
     }
     100%{
         width: 30%;
-        background: url(/src/imgs/silueta-jugando1.png);
+        background: url(../imgs/silueta-jugando1.png);
         background-size: cover;
     }
  }
