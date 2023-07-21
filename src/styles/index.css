@@ -14,6 +14,12 @@ nav {
   text-shadow: #3d9e5a;
 }
 
+.text-gen1 {
+  font-family: "Quicksand", sans-serif;
+  color: white  ;
+  text-shadow: #3d9e5a;
+}
+
 .text-green {
   font-family: "Quicksand", sans-serif;
   color: #3d9e5a;
@@ -35,7 +41,7 @@ nav {
   font-size: 1.230rem;
 }
 .navbar-nav .nav-link:hover {
-  background: url(https://i.pinimg.com/236x/b9/9c/fd/b99cfdc41c52f043ce46e38abb59e1a6.jpg);
+  background: url(../imgs/nav.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,6 +53,14 @@ nav {
 }
 
 /* Banner */
+.banner{
+  background-image: url(../imgs/Background1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 100%;
+}
+
 span{
   color: #00c7a0;
 }
