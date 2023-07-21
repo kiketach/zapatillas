@@ -1,8 +1,10 @@
+body{
+  background-image: url("../imgs/foto1.jpg");
+  background-size: cover;
+  background-position: center;
+}
 .container {
-    background-image: url("../imgs/foto1.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.547);
     margin-top: 3.125rem;
     margin-bottom: 3.125rem;
     border-radius: 0.625rem;
@@ -12,7 +14,6 @@
   input[type="tel"],
   textarea {
     background: none;
-    border: none;
     border-bottom: 0.125rem solid white;
     outline: none;
     color: aliceblue;
@@ -24,20 +25,44 @@
     margin-right: 0.625rem;
     margin-bottom: 0.625rem;
   }
-  .btn-black {
-    background-color: black;
-    color: white;
-  }
   label {
     font-family: "Dosis", sans-serif;
     color: white;
+    font-size: 1.5rem;
   }
-  h1 {
+  .text-center {
     font-family: "Quicksand", sans-serif;
     color: white;
-    font-size: 2rem;
-    font-weight: bold;
-    letter-spacing: 0.125rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.3rem;
+    padding-top: 2rem;
   }
+  .boton1 {
+    border: 0.1rem solid rgb(250, 246, 246) !important;
+    color: white !important;
+    font-weight:600 !important;
+    font-size: 1.2rem !important;
+  }
+  .boton1:hover{
+    background-color:  rgb(0, 0, 0) !important;
+    border: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.2rem !important;
+  }
+  
+  .boton {
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+    font-weight:600 !important;
+    font-size: 1.2rem !important;
+  }
+  .boton:hover{
+    background-color: rgba(0, 0, 0, 0)   !important;
+    border: 0.1rem solid rgb(250, 246, 246) !important;
+    color: white !important;
+    font-weight:600 !important;
+    font-size: 1.2rem !important;
+    }
   
   
