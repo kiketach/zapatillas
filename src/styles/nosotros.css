@@ -135,7 +135,7 @@ span{
         height: 100%;
         border-radius: 2rem;
         text-align: center;
-        background-image: url(/src/imgs/mision.png);
+        background-image: url(../imgs/mision.png);
         background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
@@ -161,7 +161,7 @@ span{
         height: 100%;
         border-radius: 2rem;
         text-align: center;
-        background-image: url(/src/imgs/vision.png);
+        background-image: url(../imgs/vision.png);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
@@ -188,9 +188,7 @@ span{
        font-size: 2rem;
    }
 }
-/*
-responsive en pantalla destock falta, ademas de agregar dos animaciones y términar los detalles de cada una de las secciones.
-and (max-width:1023px)*/
+
 @media screen and (min-width:576px)and (max-width: 1023px){
     .vision{
         display: grid;
@@ -216,7 +214,7 @@ and (max-width:1023px)*/
         height: 100%;
     }
     .mission-2{
-        background: url(/src/imgs/mision.png);
+        background: url(../imgs/mision.png);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
@@ -242,7 +240,7 @@ and (max-width:1023px)*/
         height: 100%;
         padding: 3rem 2.5rem 1rem 2rem;
         clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
-        background-image: url(/src/imgs/vision.png);
+        background-image: url(../imgs/vision.png);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
@@ -311,7 +309,7 @@ and (max-width:1023px)*/
         height: 100%;
     }
     .mission-2{
-        background: url(/src/imgs/mision.png);
+        background: url(../imgs/mision.png);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
@@ -337,7 +335,7 @@ and (max-width:1023px)*/
         height: 100%;
         padding: 1.2rem 8rem 1rem 8rem;
         clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
-        background-image: url(/src/imgs/vision.png);
+        background-image: url(../imgs/vision.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
