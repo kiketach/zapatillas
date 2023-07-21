@@ -78,6 +78,7 @@ span{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  max-width: 100%;
 }
 .site-blocks-cover,
 .site-blocks-cover .row {
