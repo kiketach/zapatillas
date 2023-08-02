@@ -96,23 +96,36 @@
           </div>
         </div>
       </nav>
-      <!-- BANNER PRINCIPAL -->
-    <div class="banner d-flex justify-content-center align-items-center">
-      <img class="imagen-banner align-items-center" src="./src/imgs/1.1.png" alt="zapato azul">
-      <div class="align-items-center">
-        <div class="col-md-10 text-center text-md-left pt-5 pt-md-0">
+      <!-- Carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="banner carousel-inner">
+        <div class="carousel-item active">
           <h1 class="mb-2 text-gen1">Fabricamos tus <span>Zapatillas</span>  Perfectas</h1>
-          <div class="intro-text text-center text-md-left">
-            <p class="mb-4 text-gen1">
-              Ideales para superficies duras y exigentes! Tenemos una amplia
-              variedad de modelos y colores.
-            </p>
-            <p>
-              <a href="./src/pages/catalogo.html" class="btn-catalogo btn btn-sm btn-primary">Ver Catálogo Ahora</a>
-            </p>
-          </div>
+          <img src="./src/imgs/1.1.png" class="d-block w-90" alt="...">
+          <p>
+            <a href="./src/pages/catalogo.html" class="btn-catalogo btn btn-sm btn-primary">Ver Catálogo Ahora</a>
+          </p>
+        </div>
+        <div class="carousel-item">
+          <img src="./src/imgs/1.1.png" class="d-block w-90" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./src/imgs/1.1.png" class="d-block w-90" alt="...">
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
       <!-- CONTENIDO BAJO EL BANNER -->
       <div class="contenido-animado">

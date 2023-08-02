@@ -55,7 +55,7 @@ nav {
 /* Banner */
 .banner{
   background-image: url(../imgs/Background1.png);
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   background-position: center center;
   max-width: 100%;
