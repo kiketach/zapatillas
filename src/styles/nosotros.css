@@ -10,9 +10,6 @@ canvas { background: #000000; }
     display: flex;
     flex-direction: column;
 }
-h1{
-    font-family: 'Quicksand', sans-serif;
-}
 h3{
     font-family: 'Quicksand', sans-serif;
     padding: 2rem;
@@ -21,7 +18,7 @@ h3{
 }
 p{
     font-family: 'Dosis', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bolder
 }
 span{
@@ -47,23 +44,23 @@ span{
 }
 @keyframes sliden{
     0%{
-        background: url(/src/imgs/silueta-corriendo.png);       
+        background: url(../imgs/silueta-corriendo.png);       
         background-size: cover;
         width: 30%;
     }
     50%{
         width: 30%;
-        background: url(/src/imgs/silueta-jugando.png);
+        background: url(../imgs/silueta-jugando.png);
         background-size: cover;
     }
     80%{
         width: 30%;
-        background: url(/src/imgs/silueta-aire.png);
+        background: url(../imgs/silueta-aire.png);
         background-size: cover;
     }
     100%{
         width: 30%;
-        background: url(/src/imgs/gol-sinFondo.png);
+        background: url(../imgs/gol-sinFondo.png);
         background-size: cover;
     }
  }
@@ -81,23 +78,23 @@ span{
 }
 @keyframes sliden1{
     0%{
-        background: url(/src/imgs/silueta-patiando.png);       
+        background: url(../imgs/silueta-patiando.png);       
         background-size: cover;
         width: 30%;
     }
     50%{
         width: 30%;
-        background: url(/src/imgs/silueta-peota.png);
+        background: url(../imgs/silueta-peota.png);
         background-size: cover;
     }
     80%{
         width: 30%;
-        background: url(/src/imgs/silueta-tapando.png);
+        background: url(../imgs/silueta-tapando.png);
         background-size: cover;
     }
     100%{
         width: 30%;
-        background: url(/src/imgs/silueta-jugando1.png);
+        background: url(../imgs/silueta-jugando1.png);
         background-size: cover;
     }
  }
@@ -138,7 +135,7 @@ span{
         height: 100%;
         border-radius: 2rem;
         text-align: center;
-        background-image: url(/src/imgs/mision.png);
+        background-image: url(../imgs/mision.png);
         background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
@@ -164,7 +161,7 @@ span{
         height: 100%;
         border-radius: 2rem;
         text-align: center;
-        background-image: url(/src/imgs/vision.png);
+        background-image: url(../imgs/vision.png);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
@@ -191,9 +188,7 @@ span{
        font-size: 2rem;
    }
 }
-/*
-responsive en pantalla destock falta, ademas de agregar dos animaciones y términar los detalles de cada una de las secciones.
-and (max-width:1023px)*/
+
 @media screen and (min-width:576px)and (max-width: 1023px){
     .vision{
         display: grid;
@@ -219,7 +214,7 @@ and (max-width:1023px)*/
         height: 100%;
     }
     .mission-2{
-        background: url(/src/imgs/mision.png);
+        background: url(../imgs/mision.png);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
@@ -245,7 +240,7 @@ and (max-width:1023px)*/
         height: 100%;
         padding: 3rem 2.5rem 1rem 2rem;
         clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
-        background-image: url(/src/imgs/vision.png);
+        background-image: url(../imgs/vision.png);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
@@ -254,6 +249,7 @@ and (max-width:1023px)*/
     .vision-2> .titulo1{
         text-align: center;     
         font-size: 2rem;
+        letter-spacing: 2rem;
     }
     .vision-2> p{
         text-align: left;  
@@ -313,7 +309,7 @@ and (max-width:1023px)*/
         height: 100%;
     }
     .mission-2{
-        background: url(/src/imgs/mision.png);
+        background: url(../imgs/mision.png);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
@@ -339,42 +335,56 @@ and (max-width:1023px)*/
         height: 100%;
         padding: 1.2rem 8rem 1rem 8rem;
         clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
-        background-image: url(/src/imgs/vision.png);
+        background-image: url(../imgs/vision.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
     .vision-2> .titulo1{
+        margin-top: 2.5rem;
         text-align: center;     
         font-size: 2.5rem;
+        letter-spacing: 0.5rem;
+        background-color: rgba(255, 255, 255, 0.457);
+        border-radius: 2%;
+        text-transform: uppercase;
     }
     .vision-2> p{
-        text-align: left;  
-        font-weight:bolder;
+        text-align: justify;
         font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+        background-color: rgba(255, 255, 255, 0.457);
+        border-radius: 2%;
     }
     .mission-2> .titulo1{
+        margin-top: 2.2rem;
         text-align: center;     
         font-size: 2.5rem;
+        letter-spacing: 0.5rem;
+        background-color: rgba(255, 255, 255, 0.457);
+        border-radius: 2%;
+        text-transform: uppercase;
     }
     .mission-2> p{
-        text-align: left;  
-        font-weight:bolder;
+        text-align: justify; 
         font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+        background-color: rgba(255, 255, 255, 0.457);
+        border-radius: 2%;
     }
     .imagen1, .imagen{  
         margin: 2.8rem 0rem 0rem 3rem;
         height: 18rem;
     }
    .subtitulo{
-    font-size: 3.2rem;
-    margin-top: 1rem;
+    font-size: 3.5rem;
+    font-weight: bolder;
    }
    /*Cards equipo*/
    .card-group{
-    margin: 1.5rem 0rem 3rem 0rem;
-    width: 100%;
-    align-self:center;
+        margin: 1.5rem 0rem 3rem 0rem;
+        width: 100%;
+        align-self:center;
    }
    .card{
         background: linear-gradient(180deg, #000000 0%,rgba(241, 245, 244, 0) 40%);
@@ -387,7 +397,7 @@ and (max-width:1023px)*/
     }
     .card-body> p{
         color: #00C7A0;
-        font-size: 1rem;
+        font-size: 1.230rem;
     }
     .card-body> h5{
         font-size: 2rem;
