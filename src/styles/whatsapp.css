@@ -228,7 +228,6 @@ input.whats-input[type="text"] {
 }
 
 input.whats-input::placeholder {
-  /* Most modern browsers support this now. */
   color: rgba(68, 68, 68, 0.705);
   opacity: 1;
 }
