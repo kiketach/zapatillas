@@ -52,14 +52,7 @@ nav {
   padding: 15px;
 }
 
-/* Banner */
-.banner{
-  background-image: url(../imgs/Background1.png);
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  max-width: 100%;
-}
+
 
 span{
   color: #00c7a0;
